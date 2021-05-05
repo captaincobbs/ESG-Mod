@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FactionTrait.xsd">
+  <FactionAffinity Name="AffinityGameplaySpectator" SubCategory="MajorFactionAffinity" Hidden="false" Custom="false" Cost="0">
+    <Command Name="UnlockBattleAction"              Arguments="Group_ComputeShipExperience"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_OnEnemyShipDestruction"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_SetInitialMilitaryPower"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_ComputeEndBattleStatus"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_Retreat"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_Retreat_RecoverMovementPoint"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_ReinforcementFlotilla_OnOwnShipDestruction"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_MainFlotilla_OnOwnShipDestruction"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_SetInitialMoraleBonus"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_OnEnemyFlotillaDestruction"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_OnFlotillaDestruction"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_ReportFlotillaDamageAppliedCurrentPhase"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_PhaseRepairShipCoreSection"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_RepairShipCoreSection"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_OnEnemyShipDeactivation"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_MainFlotilla_OnOwnShipDeactivation"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_SetShipAliveCount"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_ReduceShipAliveCount"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_ReportFlotillaInvisibilityStatusCurrentPhase"/>
+
+    <Command Name="UnlockPlay"                      Arguments="PlayPostBalancedOpponentRecycling" Priority="-5"/>
+
+    <SimulationDescriptorReference Name="EmpireImprovementWormhole"/>
+
+    <ColonyImprovementReference    Name="StarSystemImprovementColonyBase"/>
+    <SimulationDescriptorReference Name="AffinityGameplaySpectator"/>
+    <DefaultColonizer>ShipDesignDecolonizationVaulters</DefaultColonizer>
+    <AutomatedShip>ShipDesignAutomatedShip</AutomatedShip>
+  </FactionAffinity>
+</Datatable>

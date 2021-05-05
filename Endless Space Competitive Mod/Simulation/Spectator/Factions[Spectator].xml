@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/MajorFaction.xsd">
+  <MajorFaction Name="FactionSpectator" Standard="true" Author="Captain Cobbs" Priority="10" Difficulty="Normal" DifficultyAgainst="Normal">
+    <Affinity Name="AffinityGameplaySpectator"/>
+
+    <Trait Name="IsMajorFaction"/>
+
+    <TraitStartingSenate Priority="100">
+      <Government Name="GovernmentAnarchy"/>
+      <PoliticsWeight Politics="Politics01" Weight="9"/>
+      <PoliticsWeight Politics="Politics02" Weight="0"/>
+      <PoliticsWeight Politics="Politics03" Weight="0"/>
+      <PoliticsWeight Politics="Politics04" Weight="0"/>
+      <PoliticsWeight Politics="Politics05" Weight="0"/>
+      <PoliticsWeight Politics="Politics06" Weight="0"/>
+    </TraitStartingSenate>
+
+    <Trait Name="FactionTraitManualHomeSystem"/>
+
+    <Bailiff Name="DefaultMoneyBailiff"/>
+    <Bailiff Name="DefaultEmpirePointBailiff"/>
+    <Bailiff Name="DefaultProcessingPowerBailiff"/>
+
+    <Bailiff Name="DefaultMoneyBailiff"/>
+    <Bailiff Name="DefaultEmpirePointBailiff"/>
+    <Bailiff Name="DefaultProcessingPowerBailiff"/>
+
+    <MajorPopulation Affinity="AffinityVaulters" Count="0"/>
+  </MajorFaction>
+</Datatable>

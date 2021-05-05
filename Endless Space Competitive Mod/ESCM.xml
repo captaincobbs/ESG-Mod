@@ -109,6 +109,8 @@
 			<DatabasePlugin DataType="PopulationDefinition, Assembly-CSharp">
 				<FilePath>Simulation/PopulationDefinitions.xml</FilePath>
 				<FilePath>Simulation/PopulationDefinitions[*].xml</FilePath>
+        <FilePath>Simulation/Spectator/PopulationDefinitions.xml</FilePath>
+        <FilePath>Simulation/Spectator/PopulationDefinitions[*].xml</FilePath>
 			</DatabasePlugin>
 
 			<DatabasePlugin DataType="PopulationTrait, Assembly-CSharp">
@@ -117,8 +119,11 @@
 					<ExtraType DataType="PopulationModifiersTrait, Assembly-CSharp"/>
 				</ExtraTypes>
 				<FilePath>Simulation/Traits/PopulationModifiersTraits[*].xml</FilePath>
+				<FilePath>Simulation/Traits/PopulationModifiersTraits.xml</FilePath>
 				<FilePath>Simulation/PopulationCollectionBonusTraits.xml</FilePath>
 				<FilePath>Simulation/PopulationCollectionBonusTraits[*].xml</FilePath>
+        <FilePath>Simulation/Spectator/PopulationModifiersTraits[*].xml</FilePath>
+        <FilePath>Simulation/Spectator/PopulationModifiersTraits.xml</FilePath>
 			</DatabasePlugin>
 
 			<DatabasePlugin DataType="PopulationCollectionBonusTrait, Assembly-CSharp">
@@ -127,6 +132,9 @@
 
 			<DatabasePlugin DataType="PopulationModifiersTrait, Assembly-CSharp">
 				<FilePath>Simulation/Traits/PopulationModifiersTraits[*].xml</FilePath>
+				<FilePath>Simulation/Traits/PopulationModifiersTraits.xml</FilePath>
+        <FilePath>Simulation/Spectator/PopulationModifiersTraits[*].xml</FilePath>
+				<FilePath>Simulation/Spectator/PopulationModifiersTraits.xml</FilePath>
 			</DatabasePlugin>
 
 			<!-- Ship Design, Ship Roll, Hulls -->
@@ -331,14 +339,18 @@
 				</ExtraTypes>
 				<FilePath>Simulation/FactionTraits.xml</FilePath>
 				<FilePath>Simulation/FactionTraits[*].xml</FilePath>
+				<FilePath>Simulation/Spectator/FactionTraits.xml</FilePath>
+				<FilePath>Simulation/Spectator/FactionTraits[*].xml</FilePath>
 			</DatabasePlugin>
 
 			<DatabasePlugin DataType="FactionAffinity, Assembly-CSharp">
 				<FilePath>Simulation/FactionTraits[*].xml</FilePath>
+				<FilePath>Simulation/Spectator/FactionTraits[*].xml</FilePath>
 			</DatabasePlugin>
 
 			<DatabasePlugin DataType="FactionAffinityMapping, Assembly-CSharp">
 				<FilePath>Simulation/FactionTraits[*].xml</FilePath>
+				<FilePath>Simulation/Spectator/FactionTraits[*].xml</FilePath>
 			</DatabasePlugin>
 
 			<DatabasePlugin DataType="FactionTraitCategoryDefinition, Assembly-CSharp">
@@ -356,6 +368,7 @@
 					<ExtraType DataType="MajorFaction, Assembly-CSharp" />
 				</ExtraTypes>
 				<FilePath>Simulation/Factions[*].xml</FilePath>
+				<FilePath>Simulation/Spectator/Factions[*].xml</FilePath>
 			</DatabasePlugin>
 
 			<DatabasePlugin DataType="MajorFaction, Assembly-CSharp">

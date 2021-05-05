@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+  <SimulationDescriptor Name="AffinityGameplaySpectator" Type="AffinityGameplay">
+    <Modifier TargetProperty="TurnsBetweenElections" Operation="Force" Value="9999" Path="ClassEmpire/ClassSenate" TooltipHidden="true"/>
+    <Modifier TargetProperty="TurnsBeforeSurvey" Operation="Force" Value="9999" Path="ClassEmpire/ClassSenate" TooltipHidden="true"/>
+    <Modifier TargetProperty="AnarchyDuration" Operation="Force" Value="9999" Path="ClassEmpire/ClassSenate" TooltipHidden="true"/>
+    <Modifier TargetProperty="MaximumHackingOperationsCount" Operation="Force" Value="0" Path="ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="IsImmuneToSystemConversion" Operation="Force" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="BaseWarpSpeed" Operation="Force" Value="0.0001" Path="ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="BaseWormholeSpeed" Operation="Force" Value="0.0001" Path="ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="BaseFreeMovementSpeed" Operation="Force" Value="0.0001" Path="ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="IsImmuneToSystemConversion" Operation="Force" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="SeesAllFleets" Operation="Force" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="CanSellShips" Operation="Force" Value="0" Path="ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="CannotRetreat" Operation="Force" Value="0" Path="ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="AntiVisionStrengthForModule" Operation="Force" Value="6" Path="ClassEmpire/ClassGarrisonFleet/ClassShip" TooltipHidden="true"/>
+    <Modifier TargetProperty="VisionRange" Operation="Force" Value="999999" Path="ClassEmpire/ClassGarrisonFleet/ClassShip" TooltipHidden="true"/>
+    <Modifier TargetProperty="CannotFight" Operation="Force" Value="1" Path="ClassEmpire/ClassGarrisonFleet/ClassShip" TooltipHidden="true"/>
+    <Modifier TargetProperty="VisionStrength" Operation="Force" Value="5" Path="ClassEmpire/ClassGarrisonFleet/ClassShip" TooltipHidden="true"/>
+    <Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Force" Value="0" Path="ClassEmpire/ClassGarrisonFleet/ClassShip" TooltipHidden="true"/>
+    <Modifier TargetProperty="HealthRegenerationRatio" Operation="Force" Value="1" Path="ClassEmpire/ClassGarrisonFleet/ClassShip" TooltipHidden="true"/>
+    <Modifier TargetProperty="FleetsSpawnInvisible" Operation="Force" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="GarrisonMoneyUpkeep" Operation="Force" Value="0" Path="ClassEmpire/ClassGarrisonFleet" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="AffinityMappingSpectator" Type="AffinityMapping"/>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinitySpectator" Type="ClassPopulationEmpire"/>
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinitySpectator" Type="ClassPopulationStarSystem"/>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinitySpectator" Type="ClassPopulationAssimilated">
+  <SimulationDescriptor Name="ShipFactionSpectator" Type="ShipFaction"/>
+
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationPlanetAffinitySpectatorCount" Type="ClassPopulationPlanet">
+    <Modifier       TargetProperty="PopulationCount"     Operation="Addition" Value="$(PopulationCount)" Path="ClassPopulationPlanetSuperPopulation/../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinitySpectatorCount,ClassPopulationStarSystemSuperPopulation" TooltipHidden="true"/>
+    <Modifier       TargetProperty="PopulationCount"     Operation="Addition" Value="$(PopulationCount)" Path="!ClassPopulationPlanetSuperPopulation/../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinitySpectatorCount,!ClassPopulationStarSystemSuperPopulation" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinitySpectatorCount" Type="ClassPopulationStarSystem">
+    <Modifier TargetProperty="PopulationCount" Operation="Addition" Value="$(PopulationCount)" Path="ClassPopulationStarSystemSuperPopulation/./!ClassExploitedStarSystem,!ColonizedStarSystemStateLost/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinitySpectatorCount" TooltipHidden="true"/>
+    <Modifier TargetProperty="PopulationCount" Operation="Addition" Value="$(PopulationCount)" Path="!ClassPopulationStarSystemSuperPopulation/./!ClassExploitedStarSystem,!ColonizedStarSystemStateLost/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinitySpectatorCount,!ClassPopulationEmpireSuperPopulation" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinitySpectatorCount" Type="ClassPopulationEmpire">
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="ClassPopulationEmpireSuperPopulation/../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinitySpectatorCount,ClassPopulationPlanetSuperPopulation" Priority="100" TooltipHidden="true"/>
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="!ClassPopulationEmpireSuperPopulation/../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinitySpectatorCount,!ClassPopulationPlanetSuperPopulation" Priority="100" TooltipHidden="true"/>
+  </SimulationDescriptor>
+</Datatable>
