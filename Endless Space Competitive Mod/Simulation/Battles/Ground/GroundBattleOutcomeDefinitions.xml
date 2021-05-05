@@ -37,7 +37,6 @@
     <ResourceLoot Name="AcademyEmpireImprovementMoney">$(DefenderResourceStock) * 0.5 * Property(DefenderColonizedStarSystem,ResourceRatioStolenOnPillage)</ResourceLoot>
 
   </GroundBattleOutcomeLootDefinition>
-
   <GroundBattleOutcomeLootDefinition Name="GroundBattleOutcomeLootCravers" Priority="2" RequiresFleet="true" OwnershipLoss="0.2">
     <Prerequisites>
       <PathPrerequisite Flags="Discard">AffinityGameplayCravers</PathPrerequisite>
@@ -54,19 +53,18 @@
     <WarPointsRewardReference Name="GroundBattleOutcomeLootSystem"/>
     <TemporaryEffectReference Name="SystemPillageHappinessMalus"/>
 
-    <ResourceLoot Name="EmpireMoney">$(DefenderResourceStock) * 0.35 * Property(DefenderColonizedStarSystem,ResourceRatioStolenOnPillage)</ResourceLoot>
-    <ResourceLoot Name="Strategic1">$(DefenderResourceStock) * 0.35 * Property(DefenderColonizedStarSystem,ResourceRatioStolenOnPillage)</ResourceLoot>
-    <ResourceLoot Name="Strategic2">$(DefenderResourceStock) * 0.35 * Property(DefenderColonizedStarSystem,ResourceRatioStolenOnPillage)</ResourceLoot>
-    <ResourceLoot Name="Strategic3">$(DefenderResourceStock) * 0.35 * Property(DefenderColonizedStarSystem,ResourceRatioStolenOnPillage)</ResourceLoot>
-    <ResourceLoot Name="Strategic4">$(DefenderResourceStock) * 0.35 * Property(DefenderColonizedStarSystem,ResourceRatioStolenOnPillage)</ResourceLoot>
-    <ResourceLoot Name="Strategic5">$(DefenderResourceStock) * 0.35 * Property(DefenderColonizedStarSystem,ResourceRatioStolenOnPillage)</ResourceLoot>
-    <ResourceLoot Name="Strategic6">$(DefenderResourceStock) * 0.35 * Property(DefenderColonizedStarSystem,ResourceRatioStolenOnPillage)</ResourceLoot>
+    <ResourceLoot Name="EmpireMoney">$(DefenderResourceStock) * 0.5 * Property(DefenderColonizedStarSystem,ResourceRatioStolenOnPillage)</ResourceLoot>
+    <ResourceLoot Name="Strategic1">$(DefenderResourceStock) * 0.5 * Property(DefenderColonizedStarSystem,ResourceRatioStolenOnPillage)</ResourceLoot>
+    <ResourceLoot Name="Strategic2">$(DefenderResourceStock) * 0.5 * Property(DefenderColonizedStarSystem,ResourceRatioStolenOnPillage)</ResourceLoot>
+    <ResourceLoot Name="Strategic3">$(DefenderResourceStock) * 0.5 * Property(DefenderColonizedStarSystem,ResourceRatioStolenOnPillage)</ResourceLoot>
+    <ResourceLoot Name="Strategic4">$(DefenderResourceStock) * 0.5 * Property(DefenderColonizedStarSystem,ResourceRatioStolenOnPillage)</ResourceLoot>
+    <ResourceLoot Name="Strategic5">$(DefenderResourceStock) * 0.5 * Property(DefenderColonizedStarSystem,ResourceRatioStolenOnPillage)</ResourceLoot>
+    <ResourceLoot Name="Strategic6">$(DefenderResourceStock) * 0.5 * Property(DefenderColonizedStarSystem,ResourceRatioStolenOnPillage)</ResourceLoot>
     <ResourceLoot Name="AcademyEmpireImprovementMoney">$(DefenderResourceStock) * 0.5 * Property(DefenderColonizedStarSystem,ResourceRatioStolenOnPillage)</ResourceLoot>
 
     <PopulationLoot>Min(5, $(MovablePopulationCount) / 5)</PopulationLoot>
 
-  </GroundBattleOutcomeLootDefinition>
-  
+  </GroundBattleOutcomeLootDefinition> 
   <!-- Razes -->
   <GroundBattleOutcomeRazeDefinition Name="GroundBattleOutcomeRaze" Priority="1" OwnershipLoss="0.5">
     <Prerequisites>
@@ -129,4 +127,25 @@
     <LostSystemSimulationDescriptorReference Name="LostSystemEffectDecayRateIncrease"/>
 
   </GroundBattleOutcomeRazeDefinition>
+
+  <!-- Captures -->
+  <GroundBattleOutcomeCaptureDefinition Name="GroundBattleOutcomeCapture" Priority="0">
+    <Prerequisites>
+      <PathPrerequisite Flags="Discard" Inverted="true">AffinityGameplayMajorHisshos</PathPrerequisite>
+      <PathPrerequisite Flags="Discard" Inverted="true">FactionTraitLandsOfTheEnemy</PathPrerequisite>
+      <InterpreterPrerequisite Flags="Discard">Property(DefenderColonizedStarSystem, NumberOfTemples, true) le 0</InterpreterPrerequisite>
+    </Prerequisites>
+  </GroundBattleOutcomeCaptureDefinition>
+
+  <GroundBattleOutcomeCaptureDefinition Name="GroundBattleOutcomeCaptureMajorHisshos" Priority="0">
+    <Prerequisites>
+      <PathPrerequisite Flags="Discard">AffinityGameplayMajorHisshos</PathPrerequisite>
+      <PathPrerequisite Flags="Discard" Inverted="true">FactionTraitLandsOfTheEnemy</PathPrerequisite>
+      <InterpreterPrerequisite Flags="NotEnoughEmpireHonor">Property(AttackerEmpire, @'../ClassEmpire', EmpireHonorStock) gt 15</InterpreterPrerequisite>
+      <!-- Cost prerequisite -->
+    </Prerequisites>
+
+    <EmpireHonorChange>-15</EmpireHonorChange>
+    <!-- Cost appliance -->
+  </GroundBattleOutcomeCaptureDefinition>
 </Datatable>

@@ -290,9 +290,9 @@
   <LocalizationPair Name="%SettingHackingUmbralSanctuariesOnHomeSystemsTitle">Hacken für Refugien in fremdem Heimatsystem</LocalizationPair>
   <LocalizationPair Name="%SettingHackingUmbralSanctuariesOnHomeSystemsDescription">Aktivieren, um dem Schemenchor das Hacken zur Erstellung von Refugien in Systemen für einen Überlegenheitssieg (Heimatsysteme anderer Spieler) zu ermöglichen. Die Deaktivierung verhindert, dass unruhestiftende Mitspieler irgendwelchen Blödsinn anstellen.</LocalizationPair>
   <LocalizationPair Name="%SettingHackingUmbralSanctuariesOnHomeSystemsTrueTitle">True</LocalizationPair>
-  <LocalizationPair Name="%SettingHackingUmbralSanctuariesOnHomeSystemsTrueDescription">Du wirst Refugien in Heimatsystemen anderen Spieler gründen können.</LocalizationPair>
+  <LocalizationPair Name="%SettingHackingUmbralSanctuariesOnHomeSystemsTrueDescription">Du wirst Refugien in Heimatsystemen anderer Spieler gründen können.</LocalizationPair>
   <LocalizationPair Name="%SettingHackingUmbralSanctuariesOnHomeSystemsFalseTitle">False</LocalizationPair>
-  <LocalizationPair Name="%SettingHackingUmbralSanctuariesOnHomeSystemsFalseDescription">Du wirst keine Refugien in Heimatsystemen anderen Spieler gründen können.</LocalizationPair>
+  <LocalizationPair Name="%SettingHackingUmbralSanctuariesOnHomeSystemsFalseDescription">Du wirst keine Refugien in Heimatsystemen anderer Spieler gründen können.</LocalizationPair>
   
   <!-- Enable ESG Content -->
   <LocalizationPair Name="%SettingEnableESGContentTitle">ESG Inhalt</LocalizationPair>
@@ -316,7 +316,7 @@
   <!-- Tooltip -->
   <LocalizationPair Name="%PopulationCollectionBonusTimeLords3_TooltipEffect">Wurmlochreisen verbrauchen nur die Hälfte der verbleibenden Bewegungspunkte einer Flotte.</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementUniqueTimeLordsTooltipEffect">Bietet einen Bonus von +15 [dustColored] je [turn]; der Bonus erhöht sich um weitere +15 [dustColored] je [turn]</LocalizationPair>
-  <LocalizationPair Name="%UniquePlanetQuest-Chapter3B-Choice01Objective">Erreiche $Amount01Name [prestigeColored] je [turn] and $Amount02Name [happinessColored] in deinem Imperium.</LocalizationPair>
+  <LocalizationPair Name="%UniquePlanetQuest-Chapter3B-Choice01Objective">Erreiche $Amount01Name [prestigeColored] je [turn] und gleichzeitig $Amount02Name [happinessColored] in deinem Imperium.</LocalizationPair>
   <LocalizationPair Name="%TimeLordsQuest-Chapter1-Part1-EcologistObjective">Erkunde $Amount01Name Kuriositäten.</LocalizationPair>
   <LocalizationPair Name="%ModuleSupportJuggernautMiningStartingTitle">Fördersonde entsenden</LocalizationPair>
 
@@ -382,7 +382,7 @@
   <LocalizationPair Name="%PopulationCollectionBonusMavros3_TooltipEffect">„Einsatzteams“-Gesetz freigeschaltet (-50% [OverColonization] auf: Systeme)</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusNiris3_TooltipEffect">„Symbiotische Lebensweise“-Gesetz freigeschaltet (+5 [happinessColored] je Systemstufe auf: Systeme, +1 [happinessColored] je [population] auf: Systeme)</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusPilgrims3_TooltipEffect">„Blindsehen“-Gesetz freigeschaltet (zeigt die Position aller Flotten auf der Karte)</LocalizationPair>
-  <LocalizationPair Name="%PopulationCollectionBonusPulsos3_TooltipEffect">„Koop-Code“-Gesetz freigeschaltet (+0.1 [scienceColored] je [productionColored]) auf: Systeme)</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusPulsos3_TooltipEffect">„Koop-Code“-Gesetz freigeschaltet (+0.1 [scienceColored] je [industryColored]) auf: Systeme)</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusRemnant3_TooltipEffect">„Recht des Lasers“-Gesetz freigeschaltet (+50% Wert des Vorkommens auf Strategische Ressourcen)</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusGuardians3_TooltipEffect">„Friedensrichtlinie“-Gesetz freigeschaltet (+10% Truppengesundheit bei einer Bodenschlacht je: Imperium im Frieden, +15% Truppengesundheit bei einer Bodenschlacht je: Allianzmitglied)</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusHaroshems3_TooltipEffect">„Gesunde Grundnahrungsmittel“-Gesetz freigeschaltet (-20% [foodColored]-Verbrauch auf: [population])</LocalizationPair>
@@ -391,7 +391,7 @@
   <LocalizationPair Name="%PopulationCollectionBonusGreenman3_TooltipEffect">„Amblyr“-Gesetz freigeschaltet (+50% Wert des Vorkommens auf: Luxusressourcen)</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusSowers3_TooltipEffect">„Säer“-Gesetz freigeschaltet (+5% [fids] je fruchtbarem Planeten auf: Systeme)</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusKalTikMas3_TooltipEffect">„Kal'Tik'Ma“-Gesetz freigeschaltet (+0.25 [move] auf Schiffe je: System im Imperium)</LocalizationPair>
-  <LocalizationPair Name="%PopulationCollectionBonusSefaloros3_TooltipEffect">„Mit Geld zum Luxus“-Gesetz freigeschaltet (-10% Systemverbesserungs-[productionColored]-Kosten je Vorkommen von Luxusgütern auf: Systeme)</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusSefaloros3_TooltipEffect">„Mit Geld zum Luxus“-Gesetz freigeschaltet (-10% Systemverbesserungs-[industryColored]-Kosten je Vorkommen von Luxusgütern auf: Systeme)</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusGalvrans3_TooltipEffect">„Baryonen und Bergwerke“-Gesetz freigeschaltet (+1% Reduzierung der Technologiekosten je Vorkommen von Strategischen Ressourcen auf: Imperium)</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusHarmony_TooltipEffect">„Fröhliche Harmonien“-Gesetz freigeschaltet (+5 [happinessColored] je Vorkommen von Strategischen Ressourcen auf: Imperium)</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusIllo3_TooltipEffect">„Fäuste-der-Furcht-Erlass“-Gesetz freigeschaltet (+5% [prestigeColored] pro Krieg)</LocalizationPair>
@@ -409,7 +409,7 @@
   <LocalizationPair Name="%FactionTraitUnfallenColonizationDescription">Ein tief verwurzeltes Verlangen nach ständiger Expansion bedeutet, dass sich diese Fraktion auf neue Planeten ausdehnt, ohne dass erst eine Infrastruktur errichtet werden muss.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitUnfallenColonizationEffectOverride">Die Planetenkolonisierung benötigt keine Industrie und hat stattdessen fixe Rundenkosten.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitRiftbornTerraformationEffectOverride">Das Terraforming von Planeten wird umgekehrt und verläuft von fruchtbar zu steril.</LocalizationPair>
-  
+
   <!-- Negative/Mixed Anomalies -->
   <!-- Ice-10 -->
   <LocalizationPair Name="%FactionTraitStartingAnomaly10Title">Eis-10</LocalizationPair>
@@ -591,17 +591,24 @@ Moduleffekte in der Farbe #6999D5#blau#REVERT# steigen mit der Stufe und dem Mod
   <LocalizationPair Name="%PanelFeatureModuleOpponentRecyclingStrategic2PerCPTitle">[Strat02hyperiumColored] #C48594#pro zerstörtem Befehlspunkt#REVERT#</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleEffectsSupportAdditionalManpowerTitle">#C48594#Zusätzliches Personal#REVERT#</LocalizationPair>
   <LocalizationPair Name="%GroundBattleAttackerManpowerLimitBonusTitle">#C48594#Personaleinsatzlimit (ANG)#REVERT#</LocalizationPair>
-  <LocalizationPair Name="%PanelFeatureModuleEffectsBoardingPodHealthTitle">#C48594#Energie der Enterkapsel#REVERT#</LocalizationPair>
-  <LocalizationPair Name="%PanelFeatureModuleEffectsMissileHealthTitle">#C48594#Salvenenergie#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsSiegePowerTitle">#C48594#Verlust von#REVERT# [systemDefenseColored]/[turn] #C48594#während Belagerung#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsBoardingPodHealthTitle">Energie der Enterkapsel</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsMissileHealthTitle">Salvenenergie</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleEffectsSupportNetShipMoneyTitle">[dustColored]#C48594#/[turn] für Imperium#REVERT#</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleEffectManpowerDamageOverTimeTitle">#C48594#Personal-DPS (Schaden)#REVERT#</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleSystemGrowthTransferredPerTurnTitle">#C48594#Außenposten#REVERT# [foodColored] #C48594#zerstört#REVERT#</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleFlotillaMaximumShieldTitle">#6999D5#Schildkapazität Flottille#REVERT#</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleFlotillaShieldAbsorptionTitle">#C48594#Flottillenverteidigung – Energie#REVERT#</LocalizationPair>
-  <LocalizationPair Name="%PanelFeatureModuleEffectsWeaponDPSTitle">#C48594#Schaden pro Sekunde (DPS)#REVERT#</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleEffectsWeaponDPSTitle">Schaden pro Sekunde (DPS)</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleEffectsRawDamageTitle">#C48594#Grundschaden#REVERT#</LocalizationPair>
   <LocalizationPair Name="%ShipStatSizeModuleMultiplierTitle"> #C48594#(Module x{0})#REVERT#</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleEffectsNetTerraformationProductionTitle">[industryColored] für Planeten-Terraformung</LocalizationPair>
+  <LocalizationPair Name="%PanelFeatureModuleSiegePowerTitle">#C48594#Belagerungsschaden#REVERT#</LocalizationPair>	
+  <LocalizationPair Name="%PanelFeatureModuleOpponentRecyclingDustPerCPTitle">[dustColored] #C48594#pro zerstörtem Befehlspunkt#REVERT#</LocalizationPair>	
+  <LocalizationPair Name="%PanelFeatureModuleShieldAbsorptionForFlotillaTitle">#C48594#Erhöht die Schild-Absorption aller Schiffe in der Flotille#REVERT#</LocalizationPair>	
+  <LocalizationPair Name="%PanelFeatureModuleEffectsDamageAOETitle">#C48594#Kollateralschaden#REVERT#</LocalizationPair>	
+  <LocalizationPair Name="%PanelFeatureModuleEffectsWeaponDPSTitle">#C48594#Schaden pro Sekunde (DPS)#REVERT#</LocalizationPair>	
+  <LocalizationPair Name="%PanelFeatureModuleEffectsHPRestoredPerSecondTitle">#C48594#Energieregeneration pro Sekunde#REVERT#</LocalizationPair>
   
   <!-- Nakalim -->
   <LocalizationPair Name="%StarSystemImprovementScience2TemplarsTooltipEffect">+1 [scienceColored] je nicht zugewiesenem [relic] pro Anomalie auf: System</LocalizationPair>
@@ -619,7 +626,6 @@ Moduleffekte in der Farbe #6999D5#blau#REVERT# steigen mit der Stufe und dem Mod
   <LocalizationPair Name="%CraversQuest-Chapter3-Industry-C2Objective">Schicke Deinen Helden mit der höchsten Stufe, um die Questkuriosität im System der Endless-Fabrik zu erkunden.</LocalizationPair>
   <LocalizationPair Name="%CraversQuest-Chapter3-Religious-C2Objective">Erkunde mit dem Helden $HeroVirtualName die Questkuriosität im System der Endless-Fabrik</LocalizationPair>
 
-  <!-- Cravers - Synchronous Hive -->
-  <LocalizationPair Name="%StarSystemImprovementHeroCraversEffectOverride">+10 [happinessColored] auf: Systeme, +10 [prestigeColored] auf: Systeme.</LocalizationPair>
   <LocalizationPair Name="%SophonsQuest-Chapter1-C2Objective">Sende Deine Erkundungsflotten aus und entdecke $Amount03Name Systeme einer anderen Konstellation.</LocalizationPair>
+
 </Datatable>

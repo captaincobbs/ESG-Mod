@@ -52,4 +52,64 @@
     <GameSettingPrerequisite Flags="Prerequisite,Discard,UnlockAvailability">FreeTerraformation,True</GameSettingPrerequisite>
     <SimulationDescriptorReference Name="EmpireImprovementSizeTerraformation2" />
   </EmpireImprovementDefinition>
+
+  <!-- Play Deck Slot increase by Military Stage unlock -->
+  <EmpireImprovementDefinition Name="EmpireImprovementArmyCap9" Category="CategoryCommandPoints" SubCategory="SubCategoryFleet">
+    <TechnologyPrerequisite>TechnologyStageMilitary3</TechnologyPrerequisite>
+    <SimulationDescriptorReference Name="EmpireImprovementArmyCap9" />
+    <SimulationDescriptorReference Name="PlayDeckSlotIncrease1" />
+  </EmpireImprovementDefinition>
+
+  <EmpireImprovementDefinition Name="EmpireImprovementArmyCap10" Category="CategoryCommandPoints" SubCategory="SubCategoryFleet">
+    <TechnologyPrerequisite>TechnologyStageMilitary4</TechnologyPrerequisite>
+    <SimulationDescriptorReference Name="EmpireImprovementArmyCap10" />
+    <SimulationDescriptorReference Name="PlayDeckSlotIncrease2" />
+  </EmpireImprovementDefinition>
+
+  <EmpireImprovementDefinition Name="EmpireImprovementArmyCap11" Category="CategoryCommandPoints" SubCategory="SubCategoryFleet">
+    <TechnologyPrerequisite>TechnologyStageMilitary5</TechnologyPrerequisite>
+    <SimulationDescriptorReference Name="EmpireImprovementArmyCap11" />
+    <SimulationDescriptorReference Name="PlayDeckSlotIncrease3" />
+  </EmpireImprovementDefinition>
+  
+  <!--Buyout Reduction 1-->
+  <EmpireImprovementDefinition Name="EmpireImprovementBuyoutReduction1" Category="CategoryBuyout" SubCategory="SubCategoryBuyout">
+    <TechnologyPrerequisite>TechnologyPillage</TechnologyPrerequisite>
+    <SimulationDescriptorReference Name="EmpireImprovementBuyoutReduction1" />
+  </EmpireImprovementDefinition>
+
+  <!--Buyout Reduction 1 (Lumeris) -->
+  <EmpireImprovementDefinition Name="EmpireImprovementBuyoutReduction1Venetians" Category="CategoryBuyout" SubCategory="SubCategoryBuyout">
+    <TechnologyPrerequisite>TechnologyPillageVenetians</TechnologyPrerequisite>
+    <SimulationDescriptorReference Name="EmpireImprovementBuyoutReduction1Venetians" />
+  </EmpireImprovementDefinition>
+  
+  <!--Buyout Reduction 2-->
+  <EmpireImprovementDefinition Name="EmpireImprovementBuyoutReduction2" Category="CategoryBuyout" SubCategory="SubCategoryBuyout">
+    <TechnologyPrerequisite>TechnologyIndToDust2</TechnologyPrerequisite>
+    <SimulationDescriptorReference Name="EmpireImprovementBuyoutReduction2" />
+  </EmpireImprovementDefinition>
+
+  <!--Buyout Reduction 2 (Lumeris)-->
+  <EmpireImprovementDefinition Name="EmpireImprovementBuyoutReduction2Venetians" Category="CategoryBuyout" SubCategory="SubCategoryBuyout">
+    <TechnologyPrerequisite>TechnologyIndToDust2Venetians</TechnologyPrerequisite>
+    <SimulationDescriptorReference Name="EmpireImprovementBuyoutReduction2Venetians" />
+  </EmpireImprovementDefinition>
+
+  <!--New Outpost/colony buffs-->
+  <EmpireImprovementDefinition Name="TechnologyFoodEmpireImprovement1" Category="CategoryEmpireImprovement" SubCategory="SubCategoryPopulation">
+    <TechnologyPrerequisite>TechnologyMoonExploration</TechnologyPrerequisite>
+    <SimulationDescriptorReference Name="TechnologyFoodEmpireImprovement1" />
+  </EmpireImprovementDefinition>
+
+  <EmpireImprovementDefinition Name="TechnologyIndustryEmpireImprovement1" Category="CategoryEmpireImprovement" SubCategory="SubCategoryIndustry">
+    <TechnologyPrerequisite>TechnologyStrategicDeposit4</TechnologyPrerequisite>
+    <SimulationDescriptorReference Name="TechnologyIndustryEmpireImprovement1" />
+  </EmpireImprovementDefinition>
+
+  <!--UE Transparent Society-->
+  <EmpireImprovementDefinition Name="EmpireImprovementUEApprovalBonus" Category="CategoryApproval" SubCategory="SubCategoryApproval">
+    <TechnologyPrerequisite>TechnologyQuestUnitedEmpire12</TechnologyPrerequisite>
+    <SimulationDescriptorReference Name="EmpireImprovementUEApprovalBonus" />
+  </EmpireImprovementDefinition>
 </Datatable>

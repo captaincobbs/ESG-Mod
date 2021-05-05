@@ -27,6 +27,24 @@
     </Icons>
   </GuiElement>
 
+  <GuiElement Name="StarSystemImprovementScience4Templars">
+    <Title>%StarSystemImprovementScience4Title</Title>
+    <Description>%StarSystemImprovementScience4Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementScience4Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementScience4Large" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="StarSystemImprovementScience6Templars">
+    <Title>%StarSystemImprovementScience6Title</Title>
+    <Description>%StarSystemImprovementScience6Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementScience6Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementScience6Large" />
+    </Icons>
+  </GuiElement>
+
   <ExtendedGuiElement Name="StarSystemImprovementHeroCravers">
     <Title>%StarSystemImprovementHeroCraversTitle</Title>
     <Description>%StarSystemImprovementHeroCraversDescription</Description>
@@ -34,8 +52,64 @@
       <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementHeroCraversSmall" />
       <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementHeroCraversLarge" />
     </Icons>
+  </ExtendedGuiElement>
+
+  <!-- SHIP -->
+  <ExtendedGuiElement Name="StarSystemImprovementShip1">
+    <Title>%StarSystemImprovementShip1Title</Title>
+    <Description>%StarSystemImprovementShip1Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementShip1Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementShip1Large" />
+    </Icons>
     <TooltipElement>
-      <EffectOverride>%StarSystemImprovementHeroCraversEffectOverride</EffectOverride>
+      <EffectOverride>%StarSystemImprovementShip1TooltipEffect</EffectOverride>
     </TooltipElement>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementShip2">
+    <Title>%StarSystemImprovementShip2Title</Title>
+    <Description>%StarSystemImprovementShip2Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementShip2Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementShip2Large" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementShip2TooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementShip2Cravers">
+    <Title>%StarSystemImprovementShip2CraversTitle</Title>
+    <Description>%StarSystemImprovementShip2CraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementShip2Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementShip2Large" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementShip1CraversTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementUniqueShip1">
+    <Title>%StarSystemImprovementUniqueShip1Title</Title>
+    <Description>%StarSystemImprovementUniqueShip1Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementUniqueShip1Small" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementUniqueShip1Large" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementUniqueShip1TooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="StarSystemImprovementUniqueTerrans">
+    <Title>%StarSystemImprovementUniqueTerransTitle</Title>
+    <Description>%StarSystemImprovementUniqueTerransDescription</Description>
+
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementUniqueTerransSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/StarSystem/StarSystemImprovementUniqueTerransLarge" />
+    </Icons>
   </ExtendedGuiElement>
 </Datatable>

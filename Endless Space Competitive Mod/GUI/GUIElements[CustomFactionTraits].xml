@@ -25,6 +25,11 @@
     <Description>%FactionTraitFamilyAnomalyDescription</Description>
   </GuiElement>
 
+  <GuiElement Name="FactionTraitFamilyCheats">
+    <Title>%FactionTraitFamilyCheatsTitle</Title>
+    <Description>%FactionTraitFamilyCheatsDescription</Description>
+  </GuiElement>
+
   <!-- Starting planet -->
   <GuiElement Name="FactionTraitHomePlanetPlanetTypeGasFrozen">
     <Title>%FactionTraitHomePlanetPlanetTypeGasFrozenTitle</Title>
@@ -2538,7 +2543,7 @@
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
   </GuiElement>
-
+  
   <!-- Unfallen Colonization -->
   <ExtendedGuiElement Name="FactionTraitUnfallenColonization">
     <Title>%FactionTraitUnfallenColonizationTitle</Title>
@@ -2550,4 +2555,277 @@
       <EffectOverride>%FactionTraitUnfallenColonizationEffectOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
+  
+  <!-- Cheap Population -->
+  <GuiElement Name="FactionTraitCheapPopulation">
+    <Title>%FactionTraitCheapPopulationTitle</Title>
+    <Description>%FactionTraitCheapPopulationDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+  
+  <!-- Extra Food at Home (UC) -->
+  <GuiElement Name="FactionTraitExtraFoodAtHome">
+    <Title>%FactionTraitExtraFoodAtHomeTitle</Title>
+    <Description>%FactionTraitExtraFoodAtHomeDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+	
+	<!-- Alzon's Faction Traits -->
+	<!-- Nature-Loving -->
+	<GuiElement Name="FactionTraitNatureLoving">
+		<Title>%FactionTraitNatureLovingTitle</Title>
+		<Description>%FactionTraitNatureLovingDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+	
+	<!-- Exotic Gourmands -->
+	<GuiElement Name="FactionTraitExoticGourmands">
+		<Title>%FactionTraitExoticGourmandsTitle</Title>
+		<Description>%FactionTraitExoticGourmandsDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+	
+	<!-- Deep Space Exploiters -->
+	<GuiElement Name="FactionTraitDeepSpaceExploitersI">
+		<Title>%FactionTraitDeepSpaceExploitersITitle</Title>
+		<Description>%FactionTraitDeepSpaceExploitersIDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="FactionTraitDeepSpaceExploitersII">
+		<Title>%FactionTraitDeepSpaceExploitersIITitle</Title>
+		<Description>%FactionTraitDeepSpaceExploitersIIDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+	
+	<!-- Cheap Behemoths -->
+	<GuiElement Name="FactionTraitCheapBehemoths">
+		<Title>%FactionTraitCheapBehemothsTitle</Title>
+		<Description>%FactionTraitCheapBehemothsDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+
+  <!-- Control Freaks -->
+	<GuiElement Name="FactionTraitControlFreaks">
+		<Title>%FactionTraitControlFreaksTitle</Title>
+		<Description>%FactionTraitControlFreaksDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+	
+	<!-- Technologically Inept -->
+	<GuiElement Name="FactionTraitTechnologicallyInept">
+		<Title>%FactionTraitTechnologicallyIneptTitle</Title>
+		<Description>%FactionTraitTechnologicallyIneptDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+	
+	<!-- Covert Smugglers -->
+	<GuiElement Name="FactionTraitCovertSmugglers">
+		<Title>%FactionTraitCovertSmugglersTitle</Title>
+		<Description>%FactionTraitCovertSmugglersDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+	
+	<!-- Hero Worship -->
+	<GuiElement Name="FactionTraitHeroWorship">
+		<Title>%FactionTraitHeroWorshipTitle</Title>
+		<Description>%FactionTraitHeroWorshipDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+	
+	<!-- Strategically Inclined -->
+	<GuiElement Name="FactionTraitStrategicallyInclinedI">
+		<Title>%FactionTraitStrategicallyInclinedITitle</Title>
+		<Description>%FactionTraitStrategicallyInclinedIDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="FactionTraitStrategicallyInclinedII">
+		<Title>%FactionTraitStrategicallyInclinedIITitle</Title>
+		<Description>%FactionTraitStrategicallyInclinedIIDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+	
+	<!-- Luxuriously Inclined -->
+	<GuiElement Name="FactionTraitLuxuriouslyInclinedI">
+		<Title>%FactionTraitLuxuriouslyInclinedITitle</Title>
+		<Description>%FactionTraitLuxuriouslyInclinedIDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="FactionTraitLuxuriouslyInclinedII">
+		<Title>%FactionTraitLuxuriouslyInclinedIITitle</Title>
+		<Description>%FactionTraitLuxuriouslyInclinedIIDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+	
+	<!-- Sedentary -->
+	<ExtendedGuiElement Name="FactionTraitSedentary">
+		<Title>%FactionTraitSedentaryTitle</Title>
+		<Description>%FactionTraitSedentaryDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+		<TooltipElement>
+			<EffectOverride>%FactionTraitSedentaryEffect</EffectOverride>
+		</TooltipElement>
+	</ExtendedGuiElement>
+	
+	<!-- Lands of the Enemy -->
+	<ExtendedGuiElement Name="FactionTraitLandsOfTheEnemy">
+		<Title>%FactionTraitLandsOfTheEnemyTitle</Title>
+		<Description>%FactionTraitLandsOfTheEnemyDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+		<TooltipElement>
+			<EffectOverride>%FactionTraitLandsOfTheEnemyEffect</EffectOverride>
+		</TooltipElement>
+	</ExtendedGuiElement>
+	
+	<!-- War Desecration -->
+	<GuiElement Name="FactionTraitWarDesecration">
+		<Title>%FactionTraitWarDesecrationTitle</Title>
+		<Description>%FactionTraitWarDesecrationDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+		</Icons>
+	</GuiElement>
+  
+  <!-- Ancient Knowledge -->
+  <ExtendedGuiElement Name="FactionTraitRevealGalaxy">
+    <Title>%FactionTraitRevealGalaxyTitle</Title>
+    <Description>%FactionTraitRevealGalaxyDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits"/>
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitRevealGalaxyOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Well Founded -->
+  <ExtendedGuiElement Name="FactionTraitRevealConstellation">
+    <Title>%FactionTraitRevealConstellationTitle</Title>
+    <Description>%FactionTraitRevealConstellationDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits"/>
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitRevealConstellationOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Lost Refuge -->
+  <ExtendedGuiElement Name="FactionTraitRevealSpecialNodes">
+    <Title>%FactionTraitRevealSpecialNodesTitle</Title>
+    <Description>%FactionTraitRevealSpecialNodesDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits"/>
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitRevealSpecialNodesOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Predator -->
+  <ExtendedGuiElement Name="FactionTraitRevealHomeSystems">
+    <Title>%FactionTraitRevealHomeSystemsTitle</Title>
+    <Description>%FactionTraitRevealHomeSystemsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits"/>
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitRevealHomeSystemsOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- State Administration -->
+  <GuiElement Name="FactionTraitStateAdministration">
+    <Title>%FactionTraitStateAdministrationTitle</Title>
+    <Description>%FactionTraitStateAdministrationDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Core Administration -->
+  <GuiElement Name="FactionTraitCoreAdministration">
+    <Title>%FactionTraitCoreAdministrationTitle</Title>
+    <Description>%FactionTraitCoreAdministrationDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+  
+  <!-- Cheats -->
+  <GuiElement Name="FactionTraitCheat10">
+    <Title>%FactionTraitCheat10Title</Title>
+    <Description>%FactionTraitCheatDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitCheat50">
+    <Title>%FactionTraitCheat50Title</Title>
+    <Description>%FactionTraitCheatDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitCheat100">
+    <Title>%FactionTraitCheat100Title</Title>
+    <Description>%FactionTraitCheatDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitCheat500">
+    <Title>%FactionTraitCheat500Title</Title>
+    <Description>%FactionTraitCheatDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitCheat1000">
+    <Title>%FactionTraitCheat1000Title</Title>
+    <Description>%FactionTraitCheatDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
 </Datatable>
