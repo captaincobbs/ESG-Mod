@@ -4,13 +4,7 @@
 	<HullDefinition Name="HullSmall06Cravers" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
 		<CostReductionReference Name="ColonyShipConstructible"/>
 
-		<CustomCost ResourceName="SystemProduction">Property(StockLocation, @../ClassEmpire, CivilianBaseIndustry, true)</CustomCost>
-		<CustomCost ResourceName="Strategic1" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic1, true)</CustomCost>
-		<CustomCost ResourceName="Strategic2" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic2, true)</CustomCost>
-		<CustomCost ResourceName="Strategic3" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic3, true)</CustomCost>
-		<CustomCost ResourceName="Strategic4" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic4, true)</CustomCost>
-		<CustomCost ResourceName="Strategic5" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic5, true)</CustomCost>
-		<CustomCost ResourceName="Strategic6" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic6, true)</CustomCost>
+		<CustomCost ResourceName="SystemProduction">100</CustomCost>
 
 		<PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
 		<PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityGameplayUnfallen/ClassPopulationEmpireAffinityCravers,PopulationMajor</PathPrerequisite>
@@ -106,13 +100,7 @@
 		<CostReductionReference Name="ColonyShipConstructible"/>
 
 		<!-- Additional cost here -->
-		<CustomCost ResourceName="SystemProduction">Property(StockLocation, @../ClassEmpire, CivilianBaseIndustry, true)</CustomCost>
-		<CustomCost ResourceName="Strategic1" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic1, true)</CustomCost>
-		<CustomCost ResourceName="Strategic2" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic2, true)</CustomCost>
-		<CustomCost ResourceName="Strategic3" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic3, true)</CustomCost>
-		<CustomCost ResourceName="Strategic4" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic4, true)</CustomCost>
-		<CustomCost ResourceName="Strategic5" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic5, true)</CustomCost>
-		<CustomCost ResourceName="Strategic6" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic6, true)</CustomCost>
+		<CustomCost ResourceName="SystemProduction">100</CustomCost>
 
 		<PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
 		<PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityGameplayUnfallen/ClassPopulationEmpireAffinityMajorHisshos,PopulationMajor</PathPrerequisite>
@@ -206,13 +194,7 @@
 		<CostReductionReference Name="ColonyShipConstructible"/>
 
 		<!-- Additional cost here -->
-		<CustomCost ResourceName="SystemProduction">Property(StockLocation, @../ClassEmpire, CivilianBaseIndustry, true)</CustomCost>
-		<CustomCost ResourceName="Strategic1" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic1, true)</CustomCost>
-		<CustomCost ResourceName="Strategic2" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic2, true)</CustomCost>
-		<CustomCost ResourceName="Strategic3" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic3, true)</CustomCost>
-		<CustomCost ResourceName="Strategic4" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic4, true)</CustomCost>
-		<CustomCost ResourceName="Strategic5" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic5, true)</CustomCost>
-		<CustomCost ResourceName="Strategic6" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic6, true)</CustomCost>
+		<CustomCost ResourceName="SystemProduction">100</CustomCost>
 
 		<PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
 		<PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityGameplayUnfallen/ClassPopulationEmpireAffinityHoratio,PopulationMajor</PathPrerequisite>
@@ -306,13 +288,7 @@
 	<HullDefinition Name="HullSmall06Venetians" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
 		<CostReductionReference Name="ColonyShipConstructible"/>
 		<!-- Additional cost here -->
-		<CustomCost ResourceName="SystemProduction">Property(StockLocation, @../ClassEmpire, CivilianBaseIndustry, true)</CustomCost>
-		<CustomCost ResourceName="Strategic1" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic1, true)</CustomCost>
-		<CustomCost ResourceName="Strategic2" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic2, true)</CustomCost>
-		<CustomCost ResourceName="Strategic3" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic3, true)</CustomCost>
-		<CustomCost ResourceName="Strategic4" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic4, true)</CustomCost>
-		<CustomCost ResourceName="Strategic5" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic5, true)</CustomCost>
-		<CustomCost ResourceName="Strategic6" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic6, true)</CustomCost>
+		<CustomCost ResourceName="SystemProduction">100</CustomCost>
 
 		<PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
 		<PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityGameplayUnfallen/ClassPopulationEmpireAffinityVenetians,PopulationMajor</PathPrerequisite>
@@ -406,13 +382,7 @@
 		<CostReductionReference Name="ColonyShipConstructible"/>
 
 		<!-- Additional cost here -->
-		<CustomCost ResourceName="SystemProduction">Property(StockLocation, @../ClassEmpire, CivilianBaseIndustry, true)</CustomCost>
-		<CustomCost ResourceName="Strategic1" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic1, true)</CustomCost>
-		<CustomCost ResourceName="Strategic2" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic2, true)</CustomCost>
-		<CustomCost ResourceName="Strategic3" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic3, true)</CustomCost>
-		<CustomCost ResourceName="Strategic4" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic4, true)</CustomCost>
-		<CustomCost ResourceName="Strategic5" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic5, true)</CustomCost>
-		<CustomCost ResourceName="Strategic6" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic6, true)</CustomCost>
+		<CustomCost ResourceName="SystemProduction">100</CustomCost>
 
 		<PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
 		<PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityGameplayUnfallen/ClassPopulationEmpireAffinityTemplars,PopulationMajor</PathPrerequisite>
@@ -506,13 +476,7 @@
 		<CostReductionReference Name="ColonyShipConstructible"/>
 
 		<!-- Additional cost here -->
-		<CustomCost ResourceName="SystemProduction">Property(StockLocation, @../ClassEmpire, CivilianBaseIndustry, true)</CustomCost>
-		<CustomCost ResourceName="Strategic1" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic1, true)</CustomCost>
-		<CustomCost ResourceName="Strategic2" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic2, true)</CustomCost>
-		<CustomCost ResourceName="Strategic3" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic3, true)</CustomCost>
-		<CustomCost ResourceName="Strategic4" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic4, true)</CustomCost>
-		<CustomCost ResourceName="Strategic5" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic5, true)</CustomCost>
-		<CustomCost ResourceName="Strategic6" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic6, true)</CustomCost>
+		<CustomCost ResourceName="SystemProduction">100</CustomCost>
 
 		<PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
 		<PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityGameplayUnfallen/ClassPopulationEmpireAffinityTimeLords,PopulationMajor</PathPrerequisite>
@@ -607,13 +571,7 @@
 		<CostReductionReference Name="ColonyShipConstructible"/>
 
 		<!-- Additional cost here -->
-		<CustomCost ResourceName="SystemProduction">Property(StockLocation, @../ClassEmpire, CivilianBaseIndustry, true)</CustomCost>
-		<CustomCost ResourceName="Strategic1" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic1, true)</CustomCost>
-		<CustomCost ResourceName="Strategic2" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic2, true)</CustomCost>
-		<CustomCost ResourceName="Strategic3" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic3, true)</CustomCost>
-		<CustomCost ResourceName="Strategic4" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic4, true)</CustomCost>
-		<CustomCost ResourceName="Strategic5" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic5, true)</CustomCost>
-		<CustomCost ResourceName="Strategic6" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic6, true)</CustomCost>
+		<CustomCost ResourceName="SystemProduction">100</CustomCost>
 
 		<PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
 		<PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityGameplayUnfallen/ClassPopulationEmpireAffinitySophons,PopulationMajor</PathPrerequisite>
@@ -707,13 +665,7 @@
 		<CostReductionReference Name="ColonyShipConstructible"/>
 
 		<!-- Additional cost here -->
-		<CustomCost ResourceName="SystemProduction">Property(StockLocation, @../ClassEmpire, CivilianBaseIndustry, true)</CustomCost>
-		<CustomCost ResourceName="Strategic1" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic1, true)</CustomCost>
-		<CustomCost ResourceName="Strategic2" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic2, true)</CustomCost>
-		<CustomCost ResourceName="Strategic3" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic3, true)</CustomCost>
-		<CustomCost ResourceName="Strategic4" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic4, true)</CustomCost>
-		<CustomCost ResourceName="Strategic5" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic5, true)</CustomCost>
-		<CustomCost ResourceName="Strategic6" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic6, true)</CustomCost>
+		<CustomCost ResourceName="SystemProduction">100</CustomCost>
 
 		<PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
 		<PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityGameplayUnfallen/ClassPopulationEmpireAffinityUmbralChoir,PopulationMajor</PathPrerequisite>
@@ -807,13 +759,7 @@
 		<CostReductionReference Name="ColonyShipConstructible"/>
 
 		<!-- Additional cost here -->
-		<CustomCost ResourceName="SystemProduction">Property(StockLocation, @../ClassEmpire, CivilianBaseIndustry, true)</CustomCost>
-		<CustomCost ResourceName="Strategic1" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic1, true)</CustomCost>
-		<CustomCost ResourceName="Strategic2" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic2, true)</CustomCost>
-		<CustomCost ResourceName="Strategic3" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic3, true)</CustomCost>
-		<CustomCost ResourceName="Strategic4" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic4, true)</CustomCost>
-		<CustomCost ResourceName="Strategic5" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic5, true)</CustomCost>
-		<CustomCost ResourceName="Strategic6" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic6, true)</CustomCost>
+		<CustomCost ResourceName="SystemProduction">100</CustomCost>
 
 		<PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
 		<InterpreterPrerequisite Flags="Prerequisite,Discard,Edition">Path(Context,@'../ClassEmpire,AffinityGameplayUnfallen/ClassPopulationEmpireAffinityTerrans,PopulationMajor') or Path(Context,@'../ClassEmpire,AffinityGameplayUnfallen/ClassPopulationEmpireAffinitySheredyn,PopulationMajor') or Path(Context,@'../ClassEmpire,AffinityGameplayUnfallen/ClassPopulationEmpireAffinityMezari,PopulationMajor')</InterpreterPrerequisite>
@@ -906,13 +852,7 @@
 	<HullDefinition Name="HullSmall06Unfallen" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
 		<CostReductionReference Name="ColonyShipConstructible"/>
 
-		<CustomCost ResourceName="SystemProduction">Property(StockLocation, @../ClassEmpire, CivilianBaseIndustry, true)</CustomCost>
-		<CustomCost ResourceName="Strategic1" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic1, true)</CustomCost>
-		<CustomCost ResourceName="Strategic2" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic2, true)</CustomCost>
-		<CustomCost ResourceName="Strategic3" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic3, true)</CustomCost>
-		<CustomCost ResourceName="Strategic4" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic4, true)</CustomCost>
-		<CustomCost ResourceName="Strategic5" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic5, true)</CustomCost>
-		<CustomCost ResourceName="Strategic6" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic6, true)</CustomCost>
+		<CustomCost ResourceName="SystemProduction">100</CustomCost>
 
 		<PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
 		<PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityGameplayUnfallen/ClassPopulationEmpireAffinityUnfallen,PopulationMajor</PathPrerequisite>
@@ -1009,13 +949,7 @@
 		<CostReductionReference Name="ColonyShipConstructible"/>
 
 		<!-- Additional cost here -->
-		<CustomCost ResourceName="SystemProduction">Property(StockLocation, @../ClassEmpire, CivilianBaseIndustry, true)</CustomCost>
-		<CustomCost ResourceName="Strategic1" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic1, true)</CustomCost>
-		<CustomCost ResourceName="Strategic2" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic2, true)</CustomCost>
-		<CustomCost ResourceName="Strategic3" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic3, true)</CustomCost>
-		<CustomCost ResourceName="Strategic4" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic4, true)</CustomCost>
-		<CustomCost ResourceName="Strategic5" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic5, true)</CustomCost>
-		<CustomCost ResourceName="Strategic6" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic6, true)</CustomCost>
+		<CustomCost ResourceName="SystemProduction">100</CustomCost>
 
 		<PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
 		<PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityGameplayUnfallen/ClassPopulationEmpireAffinityVaulters,PopulationMajor</PathPrerequisite>
@@ -1108,13 +1042,7 @@
 	<HullDefinition Name="HullSmall06Vampirilis" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
 		<CostReductionReference Name="ColonyShipConstructible"/>
 
-		<CustomCost ResourceName="SystemProduction">Property(StockLocation, @../ClassEmpire, CivilianBaseIndustry, true)</CustomCost>
-		<CustomCost ResourceName="Strategic1" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic1, true)</CustomCost>
-		<CustomCost ResourceName="Strategic2" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic2, true)</CustomCost>
-		<CustomCost ResourceName="Strategic3" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic3, true)</CustomCost>
-		<CustomCost ResourceName="Strategic4" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic4, true)</CustomCost>
-		<CustomCost ResourceName="Strategic5" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic5, true)</CustomCost>
-		<CustomCost ResourceName="Strategic6" Instant="true">Property(StockLocation, @../ClassEmpire, CivilianBaseStrategic6, true)</CustomCost>
+		<CustomCost ResourceName="SystemProduction">100</CustomCost>
 
 		<PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
 		<PathPrerequisite Flags="Prerequisite,Discard,Edition">../ClassEmpire,AffinityGameplayUnfallen/ClassPopulationEmpireAffinityVampirilis,PopulationMajor</PathPrerequisite>
